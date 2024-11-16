@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Outfit;
+    src: url("./Outfit-Regular.ttf");
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+    align-items: center;
+    height: 100vh;
+    font-family: Outfit;
+}
+
+#card{
+    width: 350px;
+    height: 625px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+}
+
+#equilibrium{
+    width: 302px;
+    height: 302px;
+    border-radius: 15px;
+}
+
+#image{
+    display: flex;
+    justify-content: center;
+    width: 302px;
+    height: 302px;
+    border-radius: 15px;
+    padding-left: 7%;
+    padding-top: 7%
+}
+
+#title{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding-left: 7%;
+}
+
+#paragraph{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    padding-left: 7%;
+}
+
+#stats{
+    display: flex;
+    justify-content: space-between;
+}
+
+#crystal{
+    padding-left: 7%;
+    padding-top: 4.5%;
+    width: 15px;
+    height: 25px;
+}
+
+#cyanstat{
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 21.5%;
+}
+
+#clock{
+    width: 25px;
+    height: 25px;
+    padding-top: 4.5%;
+}
+
+#time{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 7%;
+}
+
+hr{
+    border: solid 1.5px hsl(215, 51%, 70%);
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+#person{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+}
+
+#avatar{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    margin-top: 2.5%;
+}
+
+#name{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    padding-right: 7.5%;
+}
+
+strong{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
